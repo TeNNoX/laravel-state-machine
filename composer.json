@@ -17,10 +17,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebdesign/state-machine"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "illuminate/support": "^7.0 | ^8.0",
-        "winzou/state-machine": "^0.4.0"
+        "winzou/state-machine": "master"
     },
     "require-dev": {
         "mockery/mockery": "^1.3.1",
